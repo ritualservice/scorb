@@ -1,0 +1,551 @@
+@media screen and (max-width: 1270px){
+
+    .container {
+        padding: 0 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 1225px){
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .services-items {
+        column-gap: 10px;
+    }
+
+    .services-item {
+        width: 346px;
+        height: 471px;
+    }
+
+    .services-item:hover .services-item-hr {
+        width: 310px;
+    }
+
+}
+
+@media screen and (max-width: 1093px) {
+    .why-items-image {
+        max-width: 435px;
+    }
+}
+
+@media screen and (max-width: 1088px){
+
+    .services-item {
+        width: 296px;
+        height: 404px;
+    }
+
+    .services-item:hover .services-item-hr {
+        width: 260px;
+    }
+
+}
+
+@media screen and (max-width: 987px) {
+
+    .why-items {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+}
+
+@media screen and (max-width: 938px){
+
+    .services-item {
+        width: 396px;
+        height: 539px;
+    }
+
+    .services-item:hover .services-item-hr {
+        width: 363px;
+    }
+
+}
+
+@media screen and (max-width: 933px){
+
+    .menu ul {
+        column-gap: 60px;
+    }
+
+}
+
+@media screen and (max-width: 888px){
+
+    iframe {
+        width: 450px !important;
+        height: 400px !important;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+    .gallery-item {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+
+   .services-item {
+       height: 458px;
+       width: 335px;
+   }
+
+    .services-item:hover .services-item-hr {
+        width: 270px;
+    }
+
+
+}
+
+@media screen and (max-width: 785px) {
+
+   .menu ul {
+       column-gap: 40px;
+   }
+
+
+}
+
+@media screen and (max-width: 766px) {
+
+    .main-wrapper {
+        padding: 45px 0 150px 0;
+    }
+
+   .main-title {
+       font-size: 45px;
+   }
+
+   .main-description {
+       font-size: 20px;
+   }
+
+   .menu ul li a {
+       font-size: 15px;
+   }
+
+   .h2-title {
+       font-size: 25px;
+       margin-bottom: 50px;
+   }
+
+   .why, .gallery {
+       padding: 90px 0;
+   }
+
+   .why-title {
+       max-width: unset;
+   }
+
+   .why-items-image {
+       max-width: 300px;
+   }
+
+   .why-items-point-number {
+       width: 30px;
+       height: 30px;
+       font-size: 16px;
+   }
+
+   .why-items-point-text {
+       font-size: 16px;
+   }
+
+   .steps-item {
+       font-size: 16px;
+   }
+
+   .step-bold {
+       font-size: 14px;
+   }
+
+   .services {
+       padding: 90px 0 60px 0;
+   }
+
+   .services-item {
+       width: 310px;
+       height: 423px;
+   }
+
+   .services-item-title {
+       font-size: 16px;
+   }
+
+   .services-pay-text {
+       font-size: 16px;
+       text-align: center;
+       max-width: 556px;
+   }
+
+   .footer {
+       padding: 80px 0 40px 0;
+   }
+
+   .footer-item-address {
+       font-size: 16px;
+       margin-bottom: 25px;
+   }
+
+   .footer-item-social-text a {
+       font-size: 16px;
+   }
+
+}
+
+@media screen and (max-width: 675px) {
+    .gallery-item {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 674px) {
+
+    .main-wrapper {
+        padding: 40px 0 90px 0;
+    }
+
+    .steps {
+        padding: 50px 0;
+    }
+
+    .main {
+        margin-top: 150px;
+    }
+
+    .main-title {
+        letter-spacing: 4px;
+        font-size: 30px;
+    }
+
+    .main-description {
+        margin-bottom: 80px;
+        font-size: 16px;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+    .menu ul {
+        column-gap: 25px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 10px;
+    }
+
+    .button {
+        width: 190px;
+        font-size: 14px;
+    }
+
+    iframe {
+        width: 450px !important;
+        height: 250px !important;
+    }
+
+    .footer-items {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .footer-title {
+        margin-bottom: 2px;
+    }
+
+    .footer-item-left {
+        width: 100%;
+    }
+
+    .footer-item-social {
+        column-gap: 10px;
+    }
+
+    .online {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 673px) {
+    .steps-important {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .services-items {
+
+    }
+
+    .services-item {
+        width: 250px;
+        height: 340px;
+    }
+
+    .services-item-hr {
+        width: 200px;
+    }
+
+    .services-item:hover .services-item-hr {
+        width: 210px;
+    }
+
+    .footer-item-socials {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 572px) {
+    .steps-items {
+        justify-content: flex-start;
+    }
+
+    .steps-item {
+        max-width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 544px) {
+
+    .why-items {
+        flex-direction: column;
+        row-gap: 35px;
+        align-items: flex-start;
+    }
+
+    .why-items-image {
+        max-width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    .services-item {
+        width: 216px;
+        height: 294px;
+        padding: 0 16px 16px 16px;
+    }
+
+    .services-item-title {
+        font-size: 14px;
+    }
+
+    .services-item-hr {
+        width: 150px;
+    }
+
+    .services-item:hover .services-item-hr {
+        width: 170px;
+    }
+
+}
+
+@media screen and (max-width: 535px) {
+    .gallery-item {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .steps-important {
+        padding: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .footer-item-socials {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 390px !important;
+        height: 250px !important;
+    }
+
+    .steps-items {
+        justify-content: space-between;
+    }
+
+    .steps-item {
+      max-width: 200px;
+    }
+
+    .steps-svg {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .gallery-item {
+        width: 195px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+
+    .h2-title {
+        text-align: center;
+    }
+
+    .services-items {
+        justify-content: center;
+    }
+
+    .services-item {
+        width: 360px;
+        height: 250px;
+        background-position: center;
+    }
+
+    .services-item-title {
+        font-size: 16px;
+    }
+
+    .services-pay-text {
+        font-size: 14px;
+        max-width: 360px;
+    }
+
+    .services-item-hr {
+        width: 300px;
+    }
+
+    .services-item:hover .services-item-hr {
+        width: 315px;
+    }
+
+    .services-item:nth-child(2) {
+        background-position: bottom;
+    }
+
+    .why-items-point {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .why-items-point-text {
+        text-align: center;
+    }
+
+    .online {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+
+    .steps-item {
+        max-width: 430px;
+    }
+
+}
+
+@media screen and (max-width: 422px) {
+
+    .steps-items {
+        justify-content: space-between;
+    }
+
+    .steps-hospital .steps-items {
+        justify-content: space-between;
+    }
+
+    .steps-svg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .gallery-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-item {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .main-title {
+        font-size: 27px;
+    }
+
+    .h2-title {
+        font-size: 20px;
+    }
+
+    .services-item {
+        width: 282px;
+        height: 290px;
+    }
+
+    .services-item-hr {
+        width: 230px;
+    }
+
+    .services-item:hover .services-item-hr {
+        width: 250px;
+    }
+
+    .services-pay-wrapper {
+        padding: 35px 0;
+    }
+
+    .services-pay-text {
+        font-size: 13px;
+    }
+
+    iframe {
+        width: 280px !important;
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .steps-items {
+        justify-content: center;
+    }
+
+    .steps-item {
+        max-width: 300px;
+    }
+
+    .steps-hospital .steps-items {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 341px) {
+    .gallery-item {
+        max-width: 280px;
+    }
+}
