@@ -28,6 +28,15 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+
+    .steps-item {
+        font-size: 20px;
+        max-width: 230px;
+    }
+
+}
+
 @media screen and (max-width: 1093px) {
     .why-items-image {
         max-width: 435px;
@@ -232,6 +241,10 @@
         font-size: 16px;
     }
 
+    .main-tel a {
+        font-size: 16px;
+    }
+
     .menu ul li a {
         font-size: 14px;
     }
@@ -305,6 +318,18 @@
     .footer-item-socials {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 644px) {
+
+    .steps-items {
+        justify-content: unset;
+    }
+
+    .steps-item {
+        max-width: 223px;
     }
 
 }
@@ -544,8 +569,20 @@
     }
 }
 
+@media screen and (max-width: 357px) {
+    .steps-important {
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 341px) {
     .gallery-item {
         max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 332px) {
+    .main-title {
+        font-size: 25px;
     }
 }

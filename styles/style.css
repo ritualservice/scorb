@@ -71,10 +71,6 @@
     color: #FFFFFF;
 }
 
-.menu ul li:last-child a {
-    font-family: "InterBold", sans-serif;
-}
-
 .main {
     margin-top: 269px;
 }
@@ -82,7 +78,7 @@
 h1 {
     font-family: "NeutralFaceRegular", sans-serif;
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 57px;
     margin-bottom: 25px;
     letter-spacing: 15px;
 }
@@ -95,7 +91,14 @@ h1 {
 .main-description {
     font-family: "InterMedium", sans-serif;
     font-size: 25px;
-    margin-bottom: 125px;
+    margin-bottom: 100px;
+}
+
+.main-tel a {
+    text-decoration: none;
+    font-family: "InterBold", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .button {
@@ -111,6 +114,7 @@ h1 {
     background: linear-gradient(360deg, #898377 0%, #C6C0B4 100%);
     box-shadow: 3.5416080951690674px 5.6665730476379395px 28.33286476135254px 7.083216190338135px rgba(216, 164, 88, 0.25), 0px 3.5416080951690674px 3.5416080951690674px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .button:hover {
@@ -408,8 +412,8 @@ h1 {
 .steps-item {
     text-align: center;
     font-family: 'InterRegular', sans-serif;
-    font-size: 20px;
-    max-width: 225px;
+    font-size: 25px;
+    max-width: 325px;
 }
 
 .step-bold {
@@ -418,10 +422,17 @@ h1 {
 }
 
 .steps-hospital .steps-items {
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+.steps-hospital .steps-item {
+    max-width: 539px;
 }
 
 .steps-important {
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
     padding: 50px 50px;
     background-color: #898377;
     font-family: "InterBold", sans-serif;
