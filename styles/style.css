@@ -90,14 +90,14 @@ h1 {
 
 .main-description {
     font-family: "InterMedium", sans-serif;
-    font-size: 25px;
-    margin-bottom: 100px;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .main-tel a {
-    text-decoration: none;
+    text-decoration: underline;
     font-family: "InterBold", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 
@@ -114,7 +114,7 @@ h1 {
     background: linear-gradient(360deg, #898377 0%, #C6C0B4 100%);
     box-shadow: 3.5416080951690674px 5.6665730476379395px 28.33286476135254px 7.083216190338135px rgba(216, 164, 88, 0.25), 0px 3.5416080951690674px 3.5416080951690674px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 100px;
 }
 
 .button:hover {
