@@ -416,6 +416,16 @@ h1 {
     max-width: 325px;
 }
 
+.steps-item a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "InterBold", sans-serif;
+}
+
+.steps-item .step-bold span:first-child {
+    margin-right: 5px;
+}
+
 .step-bold {
     font-family: "InterBold", sans-serif;
     font-size: 18px;
