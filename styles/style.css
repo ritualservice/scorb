@@ -59,7 +59,7 @@
     border-bottom: 2px solid transparent;
 }
 
-.menu ul li:not(:last-child):hover {
+.menu ul li:hover {
     border-bottom: 2px solid white;
 }
 
